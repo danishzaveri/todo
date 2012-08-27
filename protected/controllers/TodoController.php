@@ -4,6 +4,7 @@ class TodoController Extends Controller {
 
     public function actionIndex() {
 
+        
         $criteria = new EMongoCriteria;
         $criteria->sort('timestamp', SORT_DESC);
 
