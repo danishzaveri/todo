@@ -1,5 +1,6 @@
 <div class="form">
 
+    <?php echo 'hi'; ?>
     <?php $form = $this->beginWidget('CActiveForm'); ?>
 
     <p class="note">Fields with <span class="required">*</span> are required.</p>
